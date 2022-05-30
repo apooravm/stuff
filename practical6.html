@@ -1,0 +1,148 @@
+<html>
+<head>
+<title> form </title>
+<style>
+header img{
+width:600px;
+height:200px;
+}
+nav{
+display:block;
+height:40px;
+background:black;
+}
+a{
+color: grey;
+text-align: center;
+margin-top: 5px;
+margin-left: 120px;
+font-weight:bold;
+}
+a:hover {
+color: hotpink;
+}
+a:active {
+color: blue;
+}
+aside{
+width:263px;
+height: 340px;
+color:red;
+background: pink;
+float: left;
+font-weight:bold;
+padding:10px;
+font-size: 18px;
+font-family: "Monotype Corsiva" }
+article{
+color: yellow;
+background: olive;
+padding:10px;
+font-size: 17px;
+font-family: "Tahoma" font-align: justify;
+line-height:1.6;
+}
+div{
+color: white;
+background: green;
+padding:10px;
+font-size: 17px;
+font-family: "Tahoma" font-align: justify;
+line-height:1.6;
+}
+section{
+color: red;
+background: orange;
+padding:13px;
+font-size: 17px;
+font-family: "Tahoma"
+font-align: justify;
+line-height:1.6;
+}
+footer{
+color: orange;
+background: black;
+padding:6px;
+font-size: 16px;
+font-family: "courier new";
+text-align: center;
+font-weight:bold;
+clear:left;
+height: 15px;
+}
+main{
+width:960px;
+height: 360px;
+overflow: auto;
+float: left;
+}
+main p {
+font-family:" Courier new";
+line-height: 1.2;
+text-align: justify;
+text-indent: 45px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+p::first-line {
+color: blue;
+font-variant: small-caps;
+letter-spacing: 4px;
+word-spacing: 4px;
+}
+main p::after {
+content: url(ar.gif);
+border: 1px solid yellow;
+}
+p::first-letter {
+color: purple;
+font-size: xx-large;
+}
+::selection {
+color: red;
+background: yellow;
+}
+.para_heading {
+color:black;
+font-size: 30px;
+text-transform: capitalize;
+text-shadow: 1px 1px 1px red, 2px 2px 1px yellow;
+text-align: left;
+letter-spacing: 2px;
+font-family: "Monotype corsiva";
+text-decoration: underline overline;
+}
+</style>
+</head>
+<body bgcolor="sky blue">
+<header>
+<center><img src="images.jpg" border="3"></center>
+</header>
+<nav>
+<a href= #>HOME</a><a href= #>IMAGES</a><a href= #>VIDEOS</a><a href= #>CONTACTUS</a><a href=#>HELP</a><a href=#>ABOUT US</a>
+</nav>
+<main>
+<div><h1 class="para_heading">Division Heading</h1>
+<p>ABCD</p>
+<p>ABCD</p>
+</div>
+<article>
+<h1 class="para_heading"> Article Heading</h1>
+<p>ABCD</p>
+<p>ABCD</p>
+</article>
+<section>
+<h1 class="para_heading">Section Heading</h1>
+<p>ABCD</section>
+<div>
+<h1 class="para_heading">Division Heading</h1>
+<p>ABCD</div>
+</main>
+<aside>
+<p>ABCD<p>ABCD<p><marquee bgcolor="yellow"> <font color="sky blue"> **** CLICK
+ME*****</font></marquee></p>
+</aside>
+<footer>
+This is our footer. Company Name: XYZ Limited, Andheri(W), Mumbai, 403401. </footer>
+</body>
+</html>
